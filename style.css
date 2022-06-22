@@ -120,6 +120,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+body {
+  background-color: darkslategrey;
+}
 
 .container {
   width: 8.5in;
@@ -129,7 +132,8 @@ table {
   grid-template-rows: 150px 1fr;
   row-gap: 10px;
   column-gap: 10px;
-  margin: 10px;
+  margin: auto;
+  background-color: white;
 }
 
 header {
@@ -139,6 +143,7 @@ header {
   width: 100%;
   padding: 20px;
 }
+
 header > h1 {
   align-self: flex-start;
   justify-self: flex-start;
@@ -204,6 +209,9 @@ main > section > h2 {
   padding: 2px 5px;
   margin: 4px;
   color: white;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
 }
 
 .info {
@@ -260,6 +268,10 @@ main > section > h2 {
 }
 
 @media print {
+  body {
+    margin: none;
+    background-color: none;
+  }
   .info {
     color: white;
     background-color: #162a46;
