@@ -263,14 +263,22 @@ main > section > h2 {
   .info {
     color: white;
     background-color: #162a46;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
   header {
     background-color: #d4f4e0;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
   }
   .aside {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
     background-color: #d4f4e0;
   }
   .skill {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
     background-color: #599c7c;
     color: white;
   }
