@@ -1,8 +1,8 @@
 version: '3'
 services:
   web:
-    container_name: tic-tac-toe 
-    image: tic-tac-toe
+    container_name: resume
+    image: resume 
     build:
       context: .
       target: production
